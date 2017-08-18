@@ -12,6 +12,7 @@ function isTyler (name) {
       return false;
     }
 }
+
 //////////////////PROBLEM 2////////////////////
 
 
@@ -57,8 +58,8 @@ function welcome () {
 
   //Answer Here
 //The falsy values in JavaScript are as follows: 0, null, undefined, NaN, '', and false
-/*The way to determine if something is false is to use an 'if' statement.
-  If something is false\falsy the code block after the 'if' statement will not be executed */
+//The way to determine if something is false is to use an 'if' statement.
+// If something is false\falsy the code block after the 'if' statement will not be executed
 
 //////////////////PROBLEM 6////////////////////
 
@@ -67,6 +68,7 @@ function welcome () {
 //Create a function called myName that returns your name
 
   //Code Here
+
 function myName () {
   return 'Kolt Wright';
 }
@@ -74,9 +76,9 @@ function myName () {
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-var newMyName = myName();
+var newMyName = myName;
 //Now alert the result of invoking newMyName
-alert(newMyName);
+alert(newMyName());
 
 
 //////////////////PROBLEM 7////////////////////
@@ -86,11 +88,13 @@ alert(newMyName);
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
+
 function outerFn () {
-  function () {
-    return newMyName;
+  return function () {
+    return newMyName();
   }
 }
+
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
