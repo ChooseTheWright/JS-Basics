@@ -45,7 +45,8 @@ function welcome () {
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+// Arguments are variables or values that are given\passed to a function.
+// Parameters are variables that are used in the funciton. These take the value(s) of the argument(s) that are passed to the function.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -55,8 +56,9 @@ function welcome () {
 
 
   //Answer Here
-
-
+//The falsy values in JavaScript are as follows: 0, null, undefined, NaN, '', and false
+/*The way to determine if something is false is to use an 'if' statement.
+  If something is false\falsy the code block after the 'if' statement will not be executed */
 
 //////////////////PROBLEM 6////////////////////
 
